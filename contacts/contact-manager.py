@@ -29,8 +29,8 @@ def exibir_menu():
     print("3. Remover Contato")
     print("4. Sair")
 
-
-while True:
+opcao = True
+while opcao:
     exibir_menu()
     opcao = input("Escolha uma opção: ")
 
@@ -45,6 +45,6 @@ while True:
         remover_contato(nome)
     elif opcao == "4":
         print("Encerrando o programa...")
-        break
+        opcao = False
     else:
         print("Opção inválida. Por favor, escolha uma opção válida.")
