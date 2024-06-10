@@ -1,5 +1,6 @@
 
-/contacts/*.json
+*/*.json
 
 
-/contacts/main.py
+
+main.py
